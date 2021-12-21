@@ -1,0 +1,16 @@
+{
+  "name": "pdf-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfjs-dist": "^2.12.313",
+    "xmind": "^2.2.24"
+  }
+}
