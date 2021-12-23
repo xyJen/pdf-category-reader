@@ -1,16 +1,24 @@
 {
-  "name": "pdf-reader",
+  "name": "pdf-reader-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pdf-reader": "bin/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^8.3.0",
     "pdfjs-dist": "^2.12.313",
     "xmind": "^2.2.24"
+  },
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "eslint": "^8.5.0"
   }
 }
