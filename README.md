@@ -4,7 +4,7 @@ pdfjs, category reader, xmind
 
 ### 2021-12-23
 
-加了个 cli，懒得搞了，仅支持本级目录下识别
+加了个 cli，仅支持本级目录下识别
 
 本地 `yarn link` 把 cli 命令挂在全局
 
