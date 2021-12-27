@@ -9,7 +9,7 @@ pdfjs, category reader, xmind
 本地 `yarn link` 把 cli 命令挂在全局
 
 
-`pdf-reader -f pdfName` 识别PDF中的大纲，以大纲作为目录
+`pdf-reader txt pdfName` 识别PDF中的大纲，以大纲作为目录
 
 也提供高级模式，`pdf-reader -f pdfName -p startPage-endPage` 按 PDF 的页数识别目录。但是识别率太随缘了，应该再叠加一层 OCR，懒得搞了，花了两天时间了，有点浪费，本来是想着看看书来着的啊摔(╯‵□′)╯︵┻━┻
 
